@@ -1,0 +1,138 @@
+{
+  "uuid": "0d5a31dc-c6f3-4f7a-a20d-424fc91a4121",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "d671f662-aed9-4214-827a-1750bc213648",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 16,
+    "totalEggsCollected": 0,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 6,
+    "totalBattleVictoryCount": 57,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 57,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "dark": 2,
+      "ghost": 4,
+      "fighting": 1,
+      "psychic": 3,
+      "electric": 2,
+      "steel": 1,
+      "flying": 1,
+      "ice": 2,
+      "poison": 2,
+      "water": 1,
+      "fairy": 1,
+      "bug": 1,
+      "fire": 2
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:wooloo": 1,
+      "cobblemon:geodude": 1,
+      "cobblemon:psyduck": 1,
+      "cobblemon:patrat": 1,
+      "cobblemon:elekid": 2,
+      "cobblemon:binacle": 1,
+      "cobblemon:naclstack": 1,
+      "cobblemon:pineco": 4,
+      "cobblemon:corvisquire": 1,
+      "cobblemon:rookidee": 1,
+      "cobblemon:pidgeotto": 1,
+      "cobblemon:deerling": 1,
+      "cobblemon:petilil": 1,
+      "cobblemon:murkrow": 3,
+      "cobblemon:slowbro": 1,
+      "cobblemon:gimmighoul": 1,
+      "cobblemon:lechonk": 1,
+      "cobblemon:taillow": 1,
+      "cobblemon:cottonee": 3,
+      "cobblemon:beedrill": 1,
+      "cobblemon:pidgey": 1,
+      "cobblemon:tauros": 1,
+      "cobblemon:swellow": 1,
+      "cobblemon:eevee": 1,
+      "cobblemon:electrike": 1,
+      "cobblemon:diggersby": 1,
+      "cobblemon:bouffalant": 1,
+      "cobblemon:darumaka": 1,
+      "cobblemon:cubone": 1,
+      "cobblemon:rhyhorn": 1,
+      "cobblemon:steenee": 1,
+      "cobblemon:doduo": 1,
+      "cobblemon:tropius": 1
+    },
+    "aspectsCollected": {
+      "cobblemon:zorua": [
+        "male"
+      ],
+      "cobblemon:gimmighoul": [
+        "genderless",
+        "roaming"
+      ],
+      "cobblemon:meditite": [
+        "male"
+      ],
+      "cobblemon:ampharos": [
+        "male"
+      ],
+      "cobblemon:honedge": [
+        "male"
+      ],
+      "cobblemon:grovyle": [
+        "male"
+      ],
+      "cobblemon:corvisquire": [
+        "female"
+      ],
+      "cobblemon:weavile": [
+        "female"
+      ],
+      "cobblemon:skrelp": [
+        "male"
+      ],
+      "cobblemon:gastly": [
+        "male"
+      ],
+      "cobblemon:haunter": [
+        "male"
+      ],
+      "cobblemon:gengar": [
+        "male"
+      ],
+      "cobblemon:elekid": [
+        "male"
+      ],
+      "cobblemon:electabuzz": [
+        "male"
+      ],
+      "cobblemon:corviknight": [
+        "female"
+      ],
+      "cobblemon:ralts": [
+        "male"
+      ],
+      "cobblemon:snorunt": [
+        "female"
+      ],
+      "cobblemon:abra": [
+        "female"
+      ],
+      "cobblemon:larvesta": [
+        "female"
+      ],
+      "cobblemon:charcadet": [
+        "female"
+      ],
+      "cobblemon:electivire": [
+        "male"
+      ]
+    }
+  }
+}

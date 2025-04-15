@@ -1,0 +1,120 @@
+{
+  "uuid": "34aae47f-7116-403f-8c6c-4e08caea7251",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "73880d27-0556-4091-a6c3-ef6888343e88",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 15,
+    "totalEggsCollected": 0,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 4,
+    "totalBattleVictoryCount": 41,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 41,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "normal": 2,
+      "water": 2,
+      "fire": 3,
+      "ground": 1,
+      "rock": 1,
+      "steel": 1,
+      "ghost": 4,
+      "electric": 2,
+      "grass": 1,
+      "dark": 2,
+      "flying": 2,
+      "poison": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:caterpie": 2,
+      "cobblemon:ledyba": 2,
+      "cobblemon:combee": 1,
+      "cobblemon:gimmighoul": 1,
+      "cobblemon:sentret": 2,
+      "cobblemon:zigzagoon": 2,
+      "cobblemon:taillow": 2,
+      "cobblemon:lechonk": 1,
+      "cobblemon:krabby": 1,
+      "cobblemon:crabrawler": 1,
+      "cobblemon:oddish": 1,
+      "cobblemon:poliwag": 1,
+      "cobblemon:bunnelby": 1,
+      "cobblemon:ninjask": 1,
+      "cobblemon:rufflet": 1,
+      "cobblemon:impidimp": 1,
+      "cobblemon:slugma": 1,
+      "cobblemon:wooloo": 1,
+      "cobblemon:fidough": 1,
+      "cobblemon:elekid": 1,
+      "cobblemon:ducklett": 1
+    },
+    "aspectsCollected": {
+      "cobblemon:lechonk": [
+        "female"
+      ],
+      "cobblemon:magikarp": [
+        "male",
+        "gyarados-eye-color-purple"
+      ],
+      "cobblemon:magby": [
+        "male"
+      ],
+      "cobblemon:wooper": [
+        "female"
+      ],
+      "cobblemon:stonjourner": [
+        "male"
+      ],
+      "cobblemon:honedge": [
+        "male"
+      ],
+      "cobblemon:prinplup": [
+        "female"
+      ],
+      "cobblemon:pichu": [
+        "female"
+      ],
+      "cobblemon:phantump": [
+        "male"
+      ],
+      "cobblemon:houndour": [
+        "female"
+      ],
+      "cobblemon:gyarados": [
+        "male",
+        "gyarados-eye-color-purple"
+      ],
+      "cobblemon:manectric": [
+        "female"
+      ],
+      "cobblemon:torkoal": [
+        "female"
+      ],
+      "cobblemon:misdreavus": [
+        "female"
+      ],
+      "cobblemon:swablu": [
+        "male"
+      ],
+      "cobblemon:honchkrow": [
+        "female"
+      ],
+      "cobblemon:gastly": [
+        "female"
+      ],
+      "cobblemon:magmar": [
+        "male"
+      ],
+      "cobblemon:magmortar": [
+        "male"
+      ]
+    }
+  }
+}
