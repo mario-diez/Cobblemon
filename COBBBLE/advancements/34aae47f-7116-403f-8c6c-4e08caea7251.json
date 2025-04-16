@@ -21,11 +21,13 @@
       "minecraft:deep_ocean": "2025-04-15 19:26:57 +0200",
       "minecraft:river": "2025-04-15 12:44:41 +0200",
       "minecraft:lukewarm_ocean": "2025-04-15 13:31:25 +0200",
+      "minecraft:stony_shore": "2025-04-16 11:41:59 +0200",
       "minecraft:lush_caves": "2025-04-15 13:57:26 +0200",
       "minecraft:deep_cold_ocean": "2025-04-15 18:12:56 +0200",
       "minecraft:old_growth_birch_forest": "2025-04-15 13:32:11 +0200",
       "minecraft:ocean": "2025-04-15 15:45:05 +0200",
       "minecraft:birch_forest": "2025-04-15 15:31:51 +0200",
+      "minecraft:old_growth_spruce_taiga": "2025-04-16 13:36:50 +0200",
       "minecraft:bamboo_jungle": "2025-04-15 13:43:32 +0200",
       "minecraft:plains": "2025-04-15 12:36:00 +0200",
       "minecraft:deep_lukewarm_ocean": "2025-04-15 19:28:25 +0200"
@@ -756,6 +758,7 @@
   "cobblemon:obtain_all_berries": {
     "criteria": {
       "obtain_persim_berry": "2025-04-15 14:25:06 +0200",
+      "obtain_pinap_berry": "2025-04-16 12:33:12 +0200",
       "obtain_oran_berry": "2025-04-15 12:54:04 +0200",
       "obtain_wepear_berry": "2025-04-15 14:16:01 +0200"
     },
@@ -777,7 +780,10 @@
     "criteria": {
       "obtain_ice_heal": "2025-04-15 12:54:05 +0200",
       "obtain_burn_heal": "2025-04-15 12:55:28 +0200",
-      "obtain_awakening": "2025-04-15 12:54:08 +0200"
+      "obtain_potion": "2025-04-16 13:12:42 +0200",
+      "obtain_awakening": "2025-04-15 12:54:08 +0200",
+      "obtain_antidote": "2025-04-16 12:24:41 +0200",
+      "obtain_paralyze_heal": "2025-04-16 13:13:46 +0200"
     },
     "done": false
   },
@@ -789,8 +795,10 @@
   },
   "cobblemon:craft_base_balls": {
     "criteria": {
+      "roseate_ball": "2025-04-16 12:26:27 +0200",
       "slate_ball": "2025-04-15 18:51:00 +0200",
       "poke_ball": "2025-04-15 12:57:56 +0200",
+      "premier_ball": "2025-04-16 13:14:35 +0200",
       "verdant_ball": "2025-04-15 18:50:57 +0200"
     },
     "done": false
@@ -804,10 +812,12 @@
   "cobblemon:craft_all_balls": {
     "criteria": {
       "dive_ball": "2025-04-15 18:50:58 +0200",
+      "roseate_ball": "2025-04-16 12:26:27 +0200",
       "quick_ball": "2025-04-15 18:03:23 +0200",
       "great_ball": "2025-04-15 15:16:33 +0200",
       "slate_ball": "2025-04-15 18:51:00 +0200",
       "poke_ball": "2025-04-15 12:57:56 +0200",
+      "premier_ball": "2025-04-16 13:14:35 +0200",
       "verdant_ball": "2025-04-15 18:50:57 +0200",
       "ultra_ball": "2025-04-15 13:52:04 +0200"
     },
@@ -847,6 +857,7 @@
       "minecraft:zombie": "2025-04-15 13:00:19 +0200",
       "minecraft:creeper": "2025-04-15 13:22:48 +0200",
       "minecraft:drowned": "2025-04-15 13:45:16 +0200",
+      "minecraft:zombie_villager": "2025-04-16 11:50:15 +0200",
       "minecraft:hoglin": "2025-04-15 18:29:40 +0200"
     },
     "done": false
@@ -2852,6 +2863,349 @@
   "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
     "criteria": {
       "has_iron_ore": "2025-04-15 19:36:08 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/terrain_extender": {
+    "criteria": {
+      "has_bucket": "2025-04-16 11:26:26 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/everlasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-04-16 13:33:52 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/deposit_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_jungle": "2025-04-16 11:49:52 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-04-16 12:25:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-16 13:32:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-16 12:28:25 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/roseate_rod": {
+    "criteria": {
+      "has_ball": "2025-04-16 12:26:27 +0200"
+    },
+    "done": false
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_starter_tier": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-04-16 12:28:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-04-16 11:50:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-04-16 12:25:33 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/filter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/smithing_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2025-04-16 12:25:33 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/feeding_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/electirizer": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/compacting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/battery_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-04-16 12:25:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/inception_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:brew_potion": {
+    "criteria": {
+      "check_inv": "2025-04-16 13:12:42 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/blasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/smelting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/magnet": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/fine_remedy": {
+    "criteria": {
+      "has_remedy": "2025-04-16 13:13:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-04-16 11:51:02 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-04-16 12:23:50 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1_from_starter": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stonecutter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-16 12:28:25 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/premier_rod": {
+    "criteria": {
+      "has_ball": "2025-04-16 13:14:35 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:craft_remedy": {
+    "criteria": {
+      "check_inv": "2025-04-16 13:13:45 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/restock_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/anvil_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/tool_swapper_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/agriculture/apricorn_bowl": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-16 13:32:39 +0200",
+      "has_the_recipe": "2025-04-16 13:32:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_brown_mushroom": "2025-04-16 13:32:39 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2025-04-16 12:46:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2025-04-16 12:47:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-04-16 12:29:36 +0200"
     },
     "done": true
   },

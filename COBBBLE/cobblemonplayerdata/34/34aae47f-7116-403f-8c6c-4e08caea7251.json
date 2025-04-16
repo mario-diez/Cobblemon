@@ -8,28 +8,28 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 15,
+    "totalCaptureCount": 19,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 4,
-    "totalBattleVictoryCount": 41,
+    "totalEvolvedCount": 5,
+    "totalBattleVictoryCount": 47,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 41,
+    "totalPvWBattleVictoryCount": 47,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "normal": 2,
-      "water": 2,
+      "normal": 3,
+      "water": 3,
       "fire": 3,
       "ground": 1,
       "rock": 1,
       "steel": 1,
       "ghost": 4,
       "electric": 2,
-      "grass": 1,
+      "grass": 2,
       "dark": 2,
-      "flying": 2,
+      "flying": 4,
       "poison": 1
     },
     "totalDefeatedCounts": {
@@ -38,7 +38,7 @@
       "cobblemon:combee": 1,
       "cobblemon:gimmighoul": 1,
       "cobblemon:sentret": 2,
-      "cobblemon:zigzagoon": 2,
+      "cobblemon:zigzagoon": 3,
       "cobblemon:taillow": 2,
       "cobblemon:lechonk": 1,
       "cobblemon:krabby": 1,
@@ -53,7 +53,8 @@
       "cobblemon:wooloo": 1,
       "cobblemon:fidough": 1,
       "cobblemon:elekid": 1,
-      "cobblemon:ducklett": 1
+      "cobblemon:ducklett": 1,
+      "cobblemon:fomantis": 1
     },
     "aspectsCollected": {
       "cobblemon:lechonk": [
@@ -113,6 +114,21 @@
         "male"
       ],
       "cobblemon:magmortar": [
+        "male"
+      ],
+      "cobblemon:trevenant": [
+        "male"
+      ],
+      "cobblemon:rookidee": [
+        "female"
+      ],
+      "cobblemon:fomantis": [
+        "female"
+      ],
+      "cobblemon:braviary": [
+        "male"
+      ],
+      "cobblemon:wartortle": [
         "male"
       ]
     }

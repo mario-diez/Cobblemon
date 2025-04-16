@@ -8,20 +8,20 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 16,
+    "totalCaptureCount": 18,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 6,
-    "totalBattleVictoryCount": 57,
+    "totalBattleVictoryCount": 71,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 57,
+    "totalPvWBattleVictoryCount": 71,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "dark": 2,
       "ghost": 4,
-      "fighting": 1,
+      "fighting": 2,
       "psychic": 3,
       "electric": 2,
       "steel": 1,
@@ -31,7 +31,8 @@
       "water": 1,
       "fairy": 1,
       "bug": 1,
-      "fire": 2
+      "fire": 2,
+      "normal": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:wooloo": 1,
@@ -49,7 +50,7 @@
       "cobblemon:petilil": 1,
       "cobblemon:murkrow": 3,
       "cobblemon:slowbro": 1,
-      "cobblemon:gimmighoul": 1,
+      "cobblemon:gimmighoul": 3,
       "cobblemon:lechonk": 1,
       "cobblemon:taillow": 1,
       "cobblemon:cottonee": 3,
@@ -63,10 +64,19 @@
       "cobblemon:bouffalant": 1,
       "cobblemon:darumaka": 1,
       "cobblemon:cubone": 1,
-      "cobblemon:rhyhorn": 1,
+      "cobblemon:rhyhorn": 2,
       "cobblemon:steenee": 1,
       "cobblemon:doduo": 1,
-      "cobblemon:tropius": 1
+      "cobblemon:tropius": 1,
+      "cobblemon:roggenrola": 1,
+      "cobblemon:zubat": 1,
+      "cobblemon:rattata": 1,
+      "cobblemon:minun": 1,
+      "cobblemon:fomantis": 1,
+      "cobblemon:slakoth": 1,
+      "cobblemon:squawkabilly": 1,
+      "cobblemon:pidove": 1,
+      "cobblemon:rhydon": 1
     },
     "aspectsCollected": {
       "cobblemon:zorua": [
@@ -131,6 +141,12 @@
         "female"
       ],
       "cobblemon:electivire": [
+        "male"
+      ],
+      "cobblemon:kecleon": [
+        "female"
+      ],
+      "cobblemon:machamp": [
         "male"
       ]
     }

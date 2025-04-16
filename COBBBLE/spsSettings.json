@@ -1,6 +1,7 @@
 {
   "gameType": "SURVIVAL",
   "difficulty": "EASY",
+  "difficultyLocked": false,
   "cheats": true,
   "invited": [
     "34aae47f-7116-403f-8c6c-4e08caea7251"
