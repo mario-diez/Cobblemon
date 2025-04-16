@@ -8,13 +8,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 19,
+    "totalCaptureCount": 20,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 5,
-    "totalBattleVictoryCount": 47,
+    "totalBattleVictoryCount": 48,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 47,
+    "totalPvWBattleVictoryCount": 48,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -26,7 +26,7 @@
       "rock": 1,
       "steel": 1,
       "ghost": 4,
-      "electric": 2,
+      "electric": 3,
       "grass": 2,
       "dark": 2,
       "flying": 4,
@@ -130,6 +130,9 @@
       ],
       "cobblemon:wartortle": [
         "male"
+      ],
+      "cobblemon:elekid": [
+        "female"
       ]
     }
   }
