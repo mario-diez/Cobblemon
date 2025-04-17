@@ -8,35 +8,36 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 18,
+    "totalCaptureCount": 23,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 6,
-    "totalBattleVictoryCount": 71,
+    "totalEvolvedCount": 7,
+    "totalBattleVictoryCount": 102,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 71,
+    "totalPvWBattleVictoryCount": 102,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "dark": 2,
+      "dark": 3,
       "ghost": 4,
       "fighting": 2,
       "psychic": 3,
       "electric": 2,
-      "steel": 1,
+      "steel": 2,
       "flying": 1,
-      "ice": 2,
+      "ice": 3,
       "poison": 2,
       "water": 1,
       "fairy": 1,
       "bug": 1,
       "fire": 2,
-      "normal": 1
+      "normal": 3,
+      "rock": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:wooloo": 1,
-      "cobblemon:geodude": 1,
+      "cobblemon:geodude": 2,
       "cobblemon:psyduck": 1,
       "cobblemon:patrat": 1,
       "cobblemon:elekid": 2,
@@ -44,23 +45,23 @@
       "cobblemon:naclstack": 1,
       "cobblemon:pineco": 4,
       "cobblemon:corvisquire": 1,
-      "cobblemon:rookidee": 1,
+      "cobblemon:rookidee": 2,
       "cobblemon:pidgeotto": 1,
       "cobblemon:deerling": 1,
       "cobblemon:petilil": 1,
-      "cobblemon:murkrow": 3,
+      "cobblemon:murkrow": 4,
       "cobblemon:slowbro": 1,
-      "cobblemon:gimmighoul": 3,
+      "cobblemon:gimmighoul": 6,
       "cobblemon:lechonk": 1,
       "cobblemon:taillow": 1,
       "cobblemon:cottonee": 3,
       "cobblemon:beedrill": 1,
       "cobblemon:pidgey": 1,
       "cobblemon:tauros": 1,
-      "cobblemon:swellow": 1,
+      "cobblemon:swellow": 2,
       "cobblemon:eevee": 1,
       "cobblemon:electrike": 1,
-      "cobblemon:diggersby": 1,
+      "cobblemon:diggersby": 2,
       "cobblemon:bouffalant": 1,
       "cobblemon:darumaka": 1,
       "cobblemon:cubone": 1,
@@ -76,7 +77,23 @@
       "cobblemon:slakoth": 1,
       "cobblemon:squawkabilly": 1,
       "cobblemon:pidove": 1,
-      "cobblemon:rhydon": 1
+      "cobblemon:rhydon": 1,
+      "cobblemon:ledian": 1,
+      "cobblemon:spinarak": 1,
+      "cobblemon:mudsdale": 1,
+      "cobblemon:makuhita": 1,
+      "cobblemon:amoonguss": 1,
+      "cobblemon:banette": 1,
+      "cobblemon:sprigatito": 1,
+      "cobblemon:misdreavus": 1,
+      "cobblemon:swablu": 1,
+      "cobblemon:sawsbuck": 2,
+      "cobblemon:zigzagoon": 1,
+      "cobblemon:staravia": 1,
+      "cobblemon:lokix": 1,
+      "cobblemon:sneasel": 1,
+      "cobblemon:comfey": 2,
+      "cobblemon:fletchinder": 1
     },
     "aspectsCollected": {
       "cobblemon:zorua": [
@@ -148,6 +165,26 @@
       ],
       "cobblemon:machamp": [
         "male"
+      ],
+      "cobblemon:eevee": [
+        "male"
+      ],
+      "cobblemon:darmanitan": [
+        "male",
+        "standard-mode",
+        "galarian"
+      ],
+      "cobblemon:aron": [
+        "male"
+      ],
+      "cobblemon:sceptile": [
+        "male"
+      ],
+      "cobblemon:absol": [
+        "female"
+      ],
+      "cobblemon:ditto": [
+        "genderless"
       ]
     }
   }

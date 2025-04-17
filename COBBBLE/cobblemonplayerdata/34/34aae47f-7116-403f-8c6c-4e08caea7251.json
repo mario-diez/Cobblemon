@@ -8,29 +8,30 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 20,
+    "totalCaptureCount": 23,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 5,
-    "totalBattleVictoryCount": 48,
+    "totalEvolvedCount": 11,
+    "totalBattleVictoryCount": 59,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 48,
+    "totalPvWBattleVictoryCount": 59,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "normal": 3,
+      "normal": 4,
       "water": 3,
-      "fire": 3,
+      "fire": 4,
       "ground": 1,
       "rock": 1,
       "steel": 1,
       "ghost": 4,
-      "electric": 3,
+      "electric": 4,
       "grass": 2,
       "dark": 2,
       "flying": 4,
-      "poison": 1
+      "poison": 1,
+      "fighting": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:caterpie": 2,
@@ -40,12 +41,12 @@
       "cobblemon:sentret": 2,
       "cobblemon:zigzagoon": 3,
       "cobblemon:taillow": 2,
-      "cobblemon:lechonk": 1,
+      "cobblemon:lechonk": 2,
       "cobblemon:krabby": 1,
       "cobblemon:crabrawler": 1,
       "cobblemon:oddish": 1,
       "cobblemon:poliwag": 1,
-      "cobblemon:bunnelby": 1,
+      "cobblemon:bunnelby": 2,
       "cobblemon:ninjask": 1,
       "cobblemon:rufflet": 1,
       "cobblemon:impidimp": 1,
@@ -54,7 +55,11 @@
       "cobblemon:fidough": 1,
       "cobblemon:elekid": 1,
       "cobblemon:ducklett": 1,
-      "cobblemon:fomantis": 1
+      "cobblemon:fomantis": 1,
+      "cobblemon:houndour": 3,
+      "cobblemon:mareep": 1,
+      "cobblemon:furret": 1,
+      "cobblemon:electrike": 1
     },
     "aspectsCollected": {
       "cobblemon:lechonk": [
@@ -133,6 +138,33 @@
       ],
       "cobblemon:elekid": [
         "female"
+      ],
+      "cobblemon:ampharos": [
+        "male"
+      ],
+      "cobblemon:stufful": [
+        "female"
+      ],
+      "cobblemon:pikachu": [
+        "female"
+      ],
+      "cobblemon:blastoise": [
+        "male"
+      ],
+      "cobblemon:haunter": [
+        "female"
+      ],
+      "cobblemon:gengar": [
+        "female"
+      ],
+      "cobblemon:bewear": [
+        "female"
+      ],
+      "cobblemon:quilava": [
+        "male"
+      ],
+      "cobblemon:typhlosion": [
+        "male"
       ]
     }
   }

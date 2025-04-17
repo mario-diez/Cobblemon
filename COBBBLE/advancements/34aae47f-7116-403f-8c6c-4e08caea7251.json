@@ -26,6 +26,7 @@
       "minecraft:deep_cold_ocean": "2025-04-15 18:12:56 +0200",
       "minecraft:old_growth_birch_forest": "2025-04-15 13:32:11 +0200",
       "minecraft:ocean": "2025-04-15 15:45:05 +0200",
+      "minecraft:jungle": "2025-04-17 00:38:28 +0200",
       "minecraft:birch_forest": "2025-04-15 15:31:51 +0200",
       "minecraft:old_growth_spruce_taiga": "2025-04-16 13:36:50 +0200",
       "minecraft:bamboo_jungle": "2025-04-15 13:43:32 +0200",
@@ -761,6 +762,7 @@
       "obtain_persim_berry": "2025-04-15 14:25:06 +0200",
       "obtain_pinap_berry": "2025-04-16 12:33:12 +0200",
       "obtain_oran_berry": "2025-04-15 12:54:04 +0200",
+      "obtain_payapa_berry": "2025-04-17 01:32:15 +0200",
       "obtain_wepear_berry": "2025-04-15 14:16:01 +0200"
     },
     "done": false
@@ -854,6 +856,7 @@
       "minecraft:pillager": "2025-04-16 22:15:32 +0200",
       "minecraft:skeleton": "2025-04-15 13:21:53 +0200",
       "minecraft:stray": "2025-04-15 18:19:44 +0200",
+      "minecraft:silverfish": "2025-04-17 00:40:58 +0200",
       "minecraft:magma_cube": "2025-04-15 18:36:46 +0200",
       "minecraft:spider": "2025-04-15 13:42:30 +0200",
       "minecraft:zombie": "2025-04-15 13:00:19 +0200",
@@ -3211,9 +3214,69 @@
     },
     "done": true
   },
+  "cobblemon:recipes/held/twisted_spoon": {
+    "criteria": {
+      "has_shovel": "2025-04-16 22:14:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-04-16 22:47:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-04-16 22:54:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
+    },
+    "done": true
+  },
+  "poke-clothing:recipes/misc/light_gray_cloth": {
+    "criteria": {
+      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
+    },
+    "done": true
+  },
   "cobblemon:recipes/held/soft_sand": {
     "criteria": {
       "has_sand": "2025-04-16 23:07:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_smelts_to_glass": "2025-04-16 23:07:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-04-16 23:07:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-04-16 23:10:46 +0200"
     },
     "done": true
   },
@@ -3241,12 +3304,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
-    "criteria": {
-      "has_smelts_to_glass": "2025-04-16 23:07:13 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/orange_stained_glass": {
     "criteria": {
       "has_glass": "2025-04-16 23:11:57 +0200"
@@ -3256,12 +3313,6 @@
   "cobblemon:recipes/blocks/monitor": {
     "criteria": {
       "has_glass": "2025-04-16 23:11:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/composter": {
-    "criteria": {
-      "has_wood_slab": "2025-04-16 23:10:46 +0200"
     },
     "done": true
   },
@@ -3295,24 +3346,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2025-04-16 22:54:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
-    "criteria": {
-      "has_dandelion": "2025-04-16 22:47:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/tnt_minecart": {
-    "criteria": {
-      "has_minecart": "2025-04-16 23:13:49 +0200"
-    },
-    "done": true
-  },
   "cobblemon:recipes/blocks/restoration_tank": {
     "criteria": {
       "has_glass": "2025-04-16 23:11:57 +0200"
@@ -3337,18 +3370,6 @@
     },
     "done": true
   },
-  "cobblemon:recipes/held/twisted_spoon": {
-    "criteria": {
-      "has_shovel": "2025-04-16 22:14:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/chest_minecart": {
-    "criteria": {
-      "has_minecart": "2025-04-16 23:13:49 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2025-04-16 23:11:57 +0200"
@@ -3367,27 +3388,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_bed": {
-    "criteria": {
-      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_glass": "2025-04-16 23:11:57 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/furnace_minecart": {
-    "criteria": {
-      "has_minecart": "2025-04-16 23:13:49 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/hopper_minecart": {
-    "criteria": {
-      "has_minecart": "2025-04-16 23:13:49 +0200"
     },
     "done": true
   },
@@ -3409,45 +3412,291 @@
     },
     "done": true
   },
-  "cobblemon:recipes/held/room_service": {
-    "criteria": {
-      "has_cart": "2025-04-16 23:13:49 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/yellow_stained_glass": {
     "criteria": {
       "has_glass": "2025-04-16 23:11:57 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/sandstone": {
+  "minecraft:recipes/transportation/tnt_minecart": {
     "criteria": {
-      "has_sand": "2025-04-16 23:07:13 +0200"
+      "has_minecart": "2025-04-16 23:13:49 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_banner": {
+  "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
-      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
+      "has_minecart": "2025-04-16 23:13:49 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_gray_carpet": {
+  "minecraft:recipes/transportation/furnace_minecart": {
     "criteria": {
-      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
+      "has_minecart": "2025-04-16 23:13:49 +0200"
     },
     "done": true
   },
-  "poke-clothing:recipes/misc/light_gray_cloth": {
+  "minecraft:recipes/transportation/hopper_minecart": {
     "criteria": {
-      "has_light_gray_wool": "2025-04-16 22:57:12 +0200"
+      "has_minecart": "2025-04-16 23:13:49 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/room_service": {
+    "criteria": {
+      "has_cart": "2025-04-16 23:13:49 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2025-04-16 23:13:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2025-04-17 00:02:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_banner": {
+    "criteria": {
+      "has_brown_wool": "2025-04-17 00:07:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed": {
+    "criteria": {
+      "has_brown_wool": "2025-04-17 00:07:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_carpet": {
+    "criteria": {
+      "has_brown_wool": "2025-04-17 00:07:19 +0200"
+    },
+    "done": true
+  },
+  "poke-clothing:recipes/misc/brown_cloth": {
+    "criteria": {
+      "has_brown_wool": "2025-04-17 00:07:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2025-04-17 00:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2025-04-17 00:38:36 +0200"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_jungle": "2025-04-17 00:40:01 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2025-04-17 00:40:32 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 00:40:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 00:40:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 00:40:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 00:40:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 00:40:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 00:40:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-17 00:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-17 00:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-17 00:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-17 00:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-17 00:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-17 00:41:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_weathered_chiseled_copper": {
+    "criteria": {
+      "has_waxed_weathered_cut_copper_slab": "2025-04-17 00:56:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-04-17 01:32:14 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-04-17 02:08:30 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_planks": {
+    "criteria": {
+      "has_apricorn_log": "2025-04-17 00:54:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-04-17 01:50:27 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/weakness_policy": {
+    "criteria": {
+      "has_paper": "2025-04-17 01:32:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/red_card": {
+    "criteria": {
+      "has_paper": "2025-04-17 01:32:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/spell_tag": {
+    "criteria": {
+      "has_item": "2025-04-17 01:32:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-04-17 00:57:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-04-17 01:32:14 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_wood": {
+    "criteria": {
+      "has_log": "2025-04-17 00:54:02 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/blunder_policy": {
+    "criteria": {
+      "has_paper": "2025-04-17 01:32:14 +0200"
     },
     "done": true
   },

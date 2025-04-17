@@ -14,26 +14,31 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-04-15 12:52:48 +0200",
-      "minecraft:flower_forest": "2025-04-15 16:30:05 +0200",
-      "minecraft:beach": "2025-04-15 12:52:45 +0200",
+      "minecraft:snowy_slopes": "2025-04-17 01:09:19 +0200",
       "minecraft:old_growth_pine_taiga": "2025-04-15 13:24:56 +0200",
       "minecraft:forest": "2025-04-15 12:53:16 +0200",
       "minecraft:taiga": "2025-04-15 16:35:02 +0200",
-      "minecraft:sparse_jungle": "2025-04-15 13:31:11 +0200",
       "minecraft:deep_ocean": "2025-04-15 16:43:25 +0200",
-      "minecraft:river": "2025-04-15 12:44:34 +0200",
-      "minecraft:lukewarm_ocean": "2025-04-15 13:51:11 +0200",
       "minecraft:lush_caves": "2025-04-15 14:01:06 +0200",
       "minecraft:deep_cold_ocean": "2025-04-15 16:00:48 +0200",
-      "minecraft:old_growth_birch_forest": "2025-04-15 16:41:40 +0200",
       "minecraft:ocean": "2025-04-15 12:54:36 +0200",
       "minecraft:cherry_grove": "2025-04-15 12:52:13 +0200",
-      "minecraft:meadow": "2025-04-15 16:17:45 +0200",
+      "minecraft:sunflower_plains": "2025-04-17 01:34:12 +0200",
       "minecraft:birch_forest": "2025-04-15 15:31:36 +0200",
       "minecraft:old_growth_spruce_taiga": "2025-04-15 15:34:14 +0200",
       "minecraft:bamboo_jungle": "2025-04-15 13:42:31 +0200",
-      "minecraft:plains": "2025-04-15 12:33:27 +0200",
-      "minecraft:deep_lukewarm_ocean": "2025-04-15 19:28:25 +0200"
+      "minecraft:deep_lukewarm_ocean": "2025-04-15 19:28:25 +0200",
+      "minecraft:flower_forest": "2025-04-15 16:30:05 +0200",
+      "minecraft:beach": "2025-04-15 12:52:45 +0200",
+      "minecraft:dark_forest": "2025-04-17 00:48:00 +0200",
+      "minecraft:sparse_jungle": "2025-04-15 13:31:11 +0200",
+      "minecraft:river": "2025-04-15 12:44:34 +0200",
+      "minecraft:lukewarm_ocean": "2025-04-15 13:51:11 +0200",
+      "minecraft:dripstone_caves": "2025-04-17 01:40:27 +0200",
+      "minecraft:frozen_peaks": "2025-04-17 00:51:48 +0200",
+      "minecraft:old_growth_birch_forest": "2025-04-15 16:41:40 +0200",
+      "minecraft:meadow": "2025-04-15 16:17:45 +0200",
+      "minecraft:plains": "2025-04-15 12:33:27 +0200"
     },
     "done": false
   },
@@ -112,6 +117,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-04-15 14:03:22 +0200",
+      "golden_apple": "2025-04-17 01:43:39 +0200",
       "cooked_beef": "2025-04-15 12:45:27 +0200"
     },
     "done": false
@@ -985,6 +991,7 @@
     "criteria": {
       "roseate_ball": "2025-04-15 15:53:59 +0200",
       "poke_ball": "2025-04-15 12:57:13 +0200",
+      "premier_ball": "2025-04-17 01:27:09 +0200",
       "azure_ball": "2025-04-15 16:10:33 +0200",
       "verdant_ball": "2025-04-15 16:09:21 +0200",
       "citrine_ball": "2025-04-15 16:10:37 +0200"
@@ -1013,6 +1020,8 @@
       "net_ball": "2025-04-15 18:38:39 +0200",
       "dive_ball": "2025-04-15 14:16:06 +0200",
       "roseate_ball": "2025-04-15 15:53:59 +0200",
+      "safari_ball": "2025-04-17 01:53:06 +0200",
+      "premier_ball": "2025-04-17 01:27:09 +0200",
       "verdant_ball": "2025-04-15 16:09:21 +0200",
       "ultra_ball": "2025-04-15 13:51:53 +0200"
     },
@@ -1053,6 +1062,9 @@
       "obtain_persim_berry": "2025-04-15 15:36:14 +0200",
       "obtain_shuca_berry": "2025-04-15 19:30:58 +0200",
       "obtain_oran_berry": "2025-04-15 13:00:05 +0200",
+      "obtain_payapa_berry": "2025-04-17 01:31:04 +0200",
+      "obtain_kebia_berry": "2025-04-17 01:38:37 +0200",
+      "obtain_aspear_berry": "2025-04-17 01:06:20 +0200",
       "obtain_chesto_berry": "2025-04-15 13:10:40 +0200",
       "obtain_razz_berry": "2025-04-15 13:28:57 +0200",
       "obtain_wepear_berry": "2025-04-15 13:09:49 +0200"
@@ -1340,9 +1352,10 @@
   },
   "cobblemon:recipes/consumables/mild_mint": {
     "criteria": {
+      "has_benefit_mint": "2025-04-17 01:45:37 +0200",
       "has_detriment_mint": "2025-04-15 13:20:44 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/consumables/gentle_mint": {
     "criteria": {
@@ -1353,9 +1366,10 @@
   },
   "cobblemon:recipes/consumables/impish_mint": {
     "criteria": {
-      "has_benefit_mint": "2025-04-15 13:20:44 +0200"
+      "has_benefit_mint": "2025-04-15 13:20:44 +0200",
+      "has_detriment_mint": "2025-04-17 01:45:37 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/consumables/lax_mint": {
     "criteria": {
@@ -1378,6 +1392,7 @@
   },
   "cobblemon:obtain_all_mints": {
     "criteria": {
+      "obtain_cyan_mint_leaf": "2025-04-17 01:45:37 +0200",
       "obtain_pink_mint_leaf": "2025-04-15 16:17:53 +0200",
       "obtain_red_mint_leaf": "2025-04-15 16:53:15 +0200",
       "obtain_blue_mint_leaf": "2025-04-15 13:20:44 +0200"
@@ -1534,6 +1549,7 @@
       "minecraft:witch": "2025-04-15 15:45:24 +0200",
       "minecraft:wither_skeleton": "2025-04-15 18:36:19 +0200",
       "minecraft:ghast": "2025-04-15 18:29:23 +0200",
+      "minecraft:cave_spider": "2025-04-17 00:12:42 +0200",
       "minecraft:enderman": "2025-04-15 14:00:43 +0200",
       "minecraft:stray": "2025-04-15 18:18:08 +0200",
       "minecraft:magma_cube": "2025-04-15 18:36:44 +0200",
@@ -2560,9 +2576,10 @@
   },
   "cobblemon:recipes/misc/safari_rod": {
     "criteria": {
-      "has_smithing_trim_template": "2025-04-15 14:16:04 +0200"
+      "has_smithing_trim_template": "2025-04-15 14:16:04 +0200",
+      "has_ball": "2025-04-17 01:53:06 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/misc/azure_rod": {
     "criteria": {
@@ -2643,9 +2660,10 @@
   },
   "cobblemon:recipes/misc/premier_rod": {
     "criteria": {
-      "has_smithing_trim_template": "2025-04-15 14:16:04 +0200"
+      "has_smithing_trim_template": "2025-04-15 14:16:04 +0200",
+      "has_ball": "2025-04-17 01:27:09 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/misc/citrine_rod": {
     "criteria": {
@@ -3212,9 +3230,12 @@
     "criteria": {
       "obtain_ice_heal": "2025-04-15 15:59:30 +0200",
       "obtain_burn_heal": "2025-04-15 15:59:30 +0200",
+      "obtain_potion": "2025-04-17 01:50:23 +0200",
+      "obtain_awakening": "2025-04-17 01:27:45 +0200",
       "obtain_full_restore": "2025-04-15 16:10:26 +0200",
       "obtain_hyper_potion": "2025-04-15 16:10:34 +0200",
-      "obtain_super_potion": "2025-04-15 16:09:22 +0200"
+      "obtain_super_potion": "2025-04-15 16:09:22 +0200",
+      "obtain_max_potion": "2025-04-17 01:51:43 +0200"
     },
     "done": false
   },
@@ -3250,9 +3271,10 @@
   },
   "cobblemon:recipes/consumables/rash_mint": {
     "criteria": {
+      "has_benefit_mint": "2025-04-17 01:45:37 +0200",
       "has_detriment_mint": "2025-04-15 16:17:53 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/consumables/calm_mint": {
     "criteria": {
@@ -3276,9 +3298,10 @@
   },
   "cobblemon:recipes/consumables/careful_mint": {
     "criteria": {
-      "has_benefit_mint": "2025-04-15 16:17:53 +0200"
+      "has_benefit_mint": "2025-04-15 16:17:53 +0200",
+      "has_detriment_mint": "2025-04-17 01:45:37 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/consumables/naive_mint": {
     "criteria": {
@@ -3312,9 +3335,10 @@
   },
   "cobblemon:recipes/consumables/modest_mint": {
     "criteria": {
+      "has_benefit_mint": "2025-04-17 01:45:37 +0200",
       "has_detriment_mint": "2025-04-15 16:53:15 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/held/power_bracer": {
     "criteria": {
@@ -3330,9 +3354,10 @@
   },
   "cobblemon:recipes/consumables/adamant_mint": {
     "criteria": {
-      "has_benefit_mint": "2025-04-15 16:53:15 +0200"
+      "has_benefit_mint": "2025-04-15 16:53:15 +0200",
+      "has_detriment_mint": "2025-04-17 01:45:37 +0200"
     },
-    "done": false
+    "done": true
   },
   "cobblemon:recipes/blocks/apricorn_planks": {
     "criteria": {
@@ -3864,21 +3889,9 @@
     },
     "done": true
   },
-  "cobblemon:recipes/evolution/peat_block": {
-    "criteria": {
-      "has_mud": "2025-04-16 10:36:25 +0200"
-    },
-    "done": true
-  },
   "cobblemon:recipes/consumables/remedy": {
     "criteria": {
       "has_root": "2025-04-16 10:29:16 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-04-16 10:35:09 +0200"
     },
     "done": true
   },
@@ -3888,51 +3901,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/orange_dye_from_torchflower": {
-    "criteria": {
-      "has_torchflower": "2025-04-16 10:30:53 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-04-16 10:36:25 +0200"
-    },
-    "done": true
-  },
   "cobblemon:recipes/consumables/remedy_by_campfire": {
     "criteria": {
       "has_root": "2025-04-16 10:29:16 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+  "cobblemon:obtain_big_root": {
     "criteria": {
-      "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
+      "check_inv": "2025-04-16 10:29:16 +0200"
     },
     "done": true
   },
-  "cobblemon:recipes/held/mystic_water": {
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
     "criteria": {
-      "has_water": "2025-04-16 11:09:58 +0200"
+      "has_torchflower": "2025-04-16 10:30:53 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
     "criteria": {
-      "has_moss_block": "2025-04-16 11:14:06 +0200"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/blocks/water_stone_block": {
-    "criteria": {
-      "has_water_stone": "2025-04-16 11:09:58 +0200"
+      "has_raw_gold": "2025-04-16 10:35:09 +0200"
     },
     "done": true
   },
@@ -3948,15 +3937,33 @@
     },
     "done": true
   },
-  "cobblemon:recipes/held/damp_rock": {
+  "cobblemon:recipes/evolution/peat_block": {
     "criteria": {
-      "has_stone": "2025-04-16 11:09:58 +0200"
+      "has_mud": "2025-04-16 10:36:25 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/food/honey_bottle": {
+  "minecraft:recipes/building_blocks/packed_mud": {
     "criteria": {
-      "has_honey_block": "2025-04-16 11:14:49 +0200"
+      "has_mud": "2025-04-16 10:36:25 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/mystic_water": {
+    "criteria": {
+      "has_water": "2025-04-16 11:09:58 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/water_stone_block": {
+    "criteria": {
+      "has_water_stone": "2025-04-16 11:09:58 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/damp_rock": {
+    "criteria": {
+      "has_stone": "2025-04-16 11:09:58 +0200"
     },
     "done": true
   },
@@ -3966,9 +3973,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
-      "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
+      "has_moss_block": "2025-04-16 11:14:06 +0200"
     },
     "done": true
   },
@@ -3978,15 +3985,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-04-16 11:14:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
     "criteria": {
       "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
     },
     "done": true
   },
-  "cobblemon:obtain_big_root": {
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
     "criteria": {
-      "check_inv": "2025-04-16 10:29:16 +0200"
+      "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
     },
     "done": true
   },
@@ -3996,15 +4021,682 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2025-04-16 11:14:06 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
     "criteria": {
       "has_mossy_stone_bricks": "2025-04-16 11:14:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2025-04-16 11:14:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-04-17 01:37:17 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/soft_sand": {
+    "criteria": {
+      "has_sand": "2025-04-17 00:26:51 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_bricks_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_slab": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-04-16 23:52:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glass": {
+    "criteria": {
+      "has_the_recipe": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-04-17 00:49:18 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/shiny_stone_block": {
+    "criteria": {
+      "has_shiny_stone": "2025-04-17 01:38:46 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/diamond_backpack": {
+    "criteria": {
+      "has_gold_backpack": "2025-04-17 02:07:26 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/monitor": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-04-17 00:28:10 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/display_case": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-04-17 02:00:28 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/icy_rock": {
+    "criteria": {
+      "has_stone": "2025-04-17 00:44:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-04-17 01:51:13 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/moon_stone_block": {
+    "criteria": {
+      "has_moon_stone": "2025-04-17 01:06:51 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/balls/master_ball": {
+    "criteria": {
+      "has_nether_star": "2025-04-17 00:17:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-04-17 00:07:38 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/restoration_tank": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2025-04-17 00:07:50 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-04-17 01:18:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_button": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2025-04-17 00:17:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/power_lens": {
+    "criteria": {
+      "has_mint": "2025-04-17 01:45:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_sign": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/ice_stone_block": {
+    "criteria": {
+      "has_ice_stone": "2025-04-17 00:44:42 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:brew_potion": {
+    "criteria": {
+      "check_inv": "2025-04-17 01:50:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-04-17 00:07:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/fossil_analyzer": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/fine_remedy": {
+    "criteria": {
+      "has_remedy": "2025-04-17 01:26:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_fence": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_slab": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/never_melt_ice_using_stone": {
+    "criteria": {
+      "has_ice": "2025-04-17 00:44:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2025-04-16 23:52:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-04-17 00:07:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2025-04-17 00:07:38 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/eject_button": {
+    "criteria": {
+      "has_piston": "2025-04-16 23:51:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2025-04-17 01:37:17 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/jolly_mint": {
+    "criteria": {
+      "has_detriment_mint": "2025-04-17 01:45:37 +0200"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/blocks/apricorn_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-04-17 01:18:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_wall_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-04-17 01:11:10 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/wise_glasses": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/superb_remedy": {
+    "criteria": {
+      "has_remedy": "2025-04-17 01:42:59 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/quiet_mint": {
+    "criteria": {
+      "has_benefit_mint": "2025-04-17 01:45:37 +0200"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/held/covert_cloak": {
+    "criteria": {
+      "has_membrane": "2025-04-17 00:51:10 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/never_melt_ice": {
+    "criteria": {
+      "has_the_recipe": "2025-04-17 00:44:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/room_service": {
+    "criteria": {
+      "has_cart": "2025-04-17 00:07:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2025-04-16 23:47:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone": {
+    "criteria": {
+      "has_sand": "2025-04-17 00:26:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:craft_remedy": {
+    "criteria": {
+      "check_inv": "2025-04-17 01:26:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2025-04-17 00:08:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_stairs_from_tuff_stonecutting": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/gold_backpack": {
+    "criteria": {
+      "has_iron_backpack": "2025-04-17 02:07:20 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_door": {
+    "criteria": {
+      "has_planks": "2025-04-16 23:51:07 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/agriculture/apricorn_bowl": {
+    "criteria": {
+      "has_red_mushroom": "2025-04-17 00:49:18 +0200",
+      "has_the_recipe": "2025-04-17 00:49:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_tuff": {
+    "criteria": {
+      "has_tuff": "2025-04-17 00:43:55 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/reaper_cloth": {
+    "criteria": {
+      "has_membrane": "2025-04-17 00:51:10 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/apricorn_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-04-17 00:01:37 +0200"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2025-04-17 02:07:09 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/dawn_stone_block": {
+    "criteria": {
+      "has_dawn_stone": "2025-04-17 00:44:35 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/stripped_apricorn_wood": {
+    "criteria": {
+      "has_log": "2025-04-17 00:01:37 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-04-17 00:07:38 +0200"
     },
     "done": true
   },
