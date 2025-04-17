@@ -8,13 +8,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 26,
+    "totalCaptureCount": 27,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 11,
-    "totalBattleVictoryCount": 64,
+    "totalEvolvedCount": 12,
+    "totalBattleVictoryCount": 71,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 64,
+    "totalPvWBattleVictoryCount": 71,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -27,10 +27,10 @@
       "steel": 1,
       "ghost": 5,
       "electric": 4,
-      "grass": 2,
+      "grass": 3,
       "dark": 2,
       "flying": 4,
-      "poison": 1,
+      "poison": 2,
       "fighting": 2,
       "ice": 1
     },
@@ -39,9 +39,9 @@
       "cobblemon:ledyba": 2,
       "cobblemon:combee": 1,
       "cobblemon:gimmighoul": 1,
-      "cobblemon:sentret": 2,
+      "cobblemon:sentret": 3,
       "cobblemon:zigzagoon": 3,
-      "cobblemon:taillow": 2,
+      "cobblemon:taillow": 3,
       "cobblemon:lechonk": 2,
       "cobblemon:krabby": 1,
       "cobblemon:crabrawler": 1,
@@ -52,7 +52,7 @@
       "cobblemon:rufflet": 1,
       "cobblemon:impidimp": 1,
       "cobblemon:slugma": 1,
-      "cobblemon:wooloo": 1,
+      "cobblemon:wooloo": 2,
       "cobblemon:fidough": 1,
       "cobblemon:elekid": 1,
       "cobblemon:ducklett": 1,
@@ -62,7 +62,10 @@
       "cobblemon:furret": 1,
       "cobblemon:electrike": 1,
       "cobblemon:avalugg": 1,
-      "cobblemon:zoroark": 1
+      "cobblemon:zoroark": 1,
+      "cobblemon:sawsbuck": 1,
+      "cobblemon:bouffalant": 1,
+      "cobblemon:ponyta": 1
     },
     "aspectsCollected": {
       "cobblemon:lechonk": [
@@ -178,6 +181,12 @@
       ],
       "cobblemon:makuhita": [
         "male"
+      ],
+      "cobblemon:gloom": [
+        "male"
+      ],
+      "cobblemon:empoleon": [
+        "female"
       ]
     }
   }
