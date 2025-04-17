@@ -8,30 +8,31 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 23,
+    "totalCaptureCount": 26,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 11,
-    "totalBattleVictoryCount": 59,
+    "totalBattleVictoryCount": 64,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 59,
+    "totalPvWBattleVictoryCount": 64,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "normal": 4,
+      "normal": 5,
       "water": 3,
       "fire": 4,
       "ground": 1,
       "rock": 1,
       "steel": 1,
-      "ghost": 4,
+      "ghost": 5,
       "electric": 4,
       "grass": 2,
       "dark": 2,
       "flying": 4,
       "poison": 1,
-      "fighting": 1
+      "fighting": 2,
+      "ice": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:caterpie": 2,
@@ -59,7 +60,9 @@
       "cobblemon:houndour": 3,
       "cobblemon:mareep": 1,
       "cobblemon:furret": 1,
-      "cobblemon:electrike": 1
+      "cobblemon:electrike": 1,
+      "cobblemon:avalugg": 1,
+      "cobblemon:zoroark": 1
     },
     "aspectsCollected": {
       "cobblemon:lechonk": [
@@ -164,6 +167,16 @@
         "male"
       ],
       "cobblemon:typhlosion": [
+        "male"
+      ],
+      "cobblemon:bergmite": [
+        "female"
+      ],
+      "cobblemon:zorua": [
+        "male",
+        "hisuian"
+      ],
+      "cobblemon:makuhita": [
         "male"
       ]
     }

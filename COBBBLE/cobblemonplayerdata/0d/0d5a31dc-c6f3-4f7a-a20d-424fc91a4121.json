@@ -8,32 +8,34 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 23,
+    "totalCaptureCount": 33,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 7,
-    "totalBattleVictoryCount": 102,
+    "totalBattleVictoryCount": 122,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 102,
+    "totalPvWBattleVictoryCount": 122,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
-      "dark": 3,
-      "ghost": 4,
-      "fighting": 2,
-      "psychic": 3,
+      "dark": 4,
+      "ghost": 5,
+      "fighting": 4,
+      "psychic": 4,
       "electric": 2,
       "steel": 2,
-      "flying": 1,
-      "ice": 3,
+      "flying": 2,
+      "ice": 5,
       "poison": 2,
-      "water": 1,
+      "water": 3,
       "fairy": 1,
       "bug": 1,
-      "fire": 2,
-      "normal": 3,
-      "rock": 1
+      "fire": 3,
+      "normal": 6,
+      "rock": 1,
+      "grass": 1,
+      "ground": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:wooloo": 1,
@@ -41,9 +43,9 @@
       "cobblemon:psyduck": 1,
       "cobblemon:patrat": 1,
       "cobblemon:elekid": 2,
-      "cobblemon:binacle": 1,
+      "cobblemon:binacle": 2,
       "cobblemon:naclstack": 1,
-      "cobblemon:pineco": 4,
+      "cobblemon:pineco": 5,
       "cobblemon:corvisquire": 1,
       "cobblemon:rookidee": 2,
       "cobblemon:pidgeotto": 1,
@@ -51,7 +53,7 @@
       "cobblemon:petilil": 1,
       "cobblemon:murkrow": 4,
       "cobblemon:slowbro": 1,
-      "cobblemon:gimmighoul": 6,
+      "cobblemon:gimmighoul": 8,
       "cobblemon:lechonk": 1,
       "cobblemon:taillow": 1,
       "cobblemon:cottonee": 3,
@@ -93,11 +95,18 @@
       "cobblemon:lokix": 1,
       "cobblemon:sneasel": 1,
       "cobblemon:comfey": 2,
-      "cobblemon:fletchinder": 1
+      "cobblemon:fletchinder": 1,
+      "cobblemon:cetoddle": 1,
+      "cobblemon:nacli": 1,
+      "cobblemon:whimsicott": 1,
+      "cobblemon:seel": 1,
+      "cobblemon:snover": 1,
+      "cobblemon:bergmite": 1
     },
     "aspectsCollected": {
       "cobblemon:zorua": [
-        "male"
+        "male",
+        "hisuian"
       ],
       "cobblemon:gimmighoul": [
         "genderless",
@@ -185,6 +194,33 @@
       ],
       "cobblemon:ditto": [
         "genderless"
+      ],
+      "cobblemon:farfetchd": [
+        "male",
+        "galarian"
+      ],
+      "cobblemon:rowlet": [
+        "female"
+      ],
+      "cobblemon:glalie": [
+        "female"
+      ],
+      "cobblemon:quilava": [
+        "male",
+        "region-bias-hisui"
+      ],
+      "cobblemon:slowking": [
+        "female"
+      ],
+      "cobblemon:ursaluna": [
+        "male",
+        "bloodmoon"
+      ],
+      "cobblemon:lapras": [
+        "male"
+      ],
+      "cobblemon:scrafty": [
+        "male"
       ]
     }
   }
