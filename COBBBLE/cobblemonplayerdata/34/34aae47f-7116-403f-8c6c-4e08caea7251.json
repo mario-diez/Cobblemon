@@ -8,13 +8,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 27,
+    "totalCaptureCount": 30,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 12,
-    "totalBattleVictoryCount": 71,
+    "totalBattleVictoryCount": 76,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 71,
+    "totalPvWBattleVictoryCount": 76,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -23,16 +23,18 @@
       "water": 3,
       "fire": 4,
       "ground": 1,
-      "rock": 1,
-      "steel": 1,
+      "rock": 2,
+      "steel": 2,
       "ghost": 5,
       "electric": 4,
       "grass": 3,
       "dark": 2,
-      "flying": 4,
-      "poison": 2,
+      "flying": 5,
+      "poison": 3,
       "fighting": 2,
-      "ice": 1
+      "ice": 1,
+      "dragon": 1,
+      "bug": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:caterpie": 2,
@@ -65,7 +67,9 @@
       "cobblemon:zoroark": 1,
       "cobblemon:sawsbuck": 1,
       "cobblemon:bouffalant": 1,
-      "cobblemon:ponyta": 1
+      "cobblemon:ponyta": 1,
+      "cobblemon:banette": 1,
+      "cobblemon:klink": 1
     },
     "aspectsCollected": {
       "cobblemon:lechonk": [
@@ -186,6 +190,15 @@
         "male"
       ],
       "cobblemon:empoleon": [
+        "female"
+      ],
+      "cobblemon:dragalge": [
+        "male"
+      ],
+      "cobblemon:vespiquen": [
+        "female"
+      ],
+      "cobblemon:aron": [
         "female"
       ]
     }

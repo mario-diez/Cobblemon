@@ -826,12 +826,16 @@
   },
   "cobblemon:craft_all_balls": {
     "criteria": {
-      "dive_ball": "2025-04-15 18:50:58 +0200",
-      "roseate_ball": "2025-04-16 12:26:27 +0200",
+      "heal_ball": "2025-04-18 19:48:48 +0200",
+      "nest_ball": "2025-04-18 19:49:05 +0200",
       "quick_ball": "2025-04-15 18:03:23 +0200",
       "great_ball": "2025-04-15 15:16:33 +0200",
+      "dusk_ball": "2025-04-18 19:47:37 +0200",
       "slate_ball": "2025-04-15 18:51:00 +0200",
       "poke_ball": "2025-04-15 12:57:56 +0200",
+      "net_ball": "2025-04-18 19:48:49 +0200",
+      "dive_ball": "2025-04-15 18:50:58 +0200",
+      "roseate_ball": "2025-04-16 12:26:27 +0200",
       "premier_ball": "2025-04-16 13:14:35 +0200",
       "verdant_ball": "2025-04-15 18:50:57 +0200",
       "ultra_ball": "2025-04-15 13:52:04 +0200"
@@ -870,6 +874,7 @@
       "minecraft:phantom": "2025-04-17 16:12:55 +0200",
       "minecraft:bogged": "2025-04-17 16:08:16 +0200",
       "minecraft:hoglin": "2025-04-15 18:29:40 +0200",
+      "minecraft:cave_spider": "2025-04-18 19:43:03 +0200",
       "minecraft:stray": "2025-04-15 18:19:44 +0200",
       "minecraft:silverfish": "2025-04-17 00:40:58 +0200",
       "minecraft:magma_cube": "2025-04-15 18:36:46 +0200",
@@ -3939,6 +3944,132 @@
   "cobblemon:recipes/evolution/reaper_cloth": {
     "criteria": {
       "has_membrane": "2025-04-17 16:11:24 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/net_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:48:49 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-04-18 20:03:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/heal_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:48:48 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/dusk_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:47:37 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
+    "criteria": {
+      "has_polished_blackstone_slab": "2025-04-18 19:11:02 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/nest_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:49:05 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-04-18 19:20:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
     },
     "done": true
   },
