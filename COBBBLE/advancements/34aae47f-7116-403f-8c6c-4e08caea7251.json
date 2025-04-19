@@ -157,6 +157,7 @@
       "apple": "2025-04-17 15:19:02 +0200",
       "bread": "2025-04-15 12:55:16 +0200",
       "golden_apple": "2025-04-17 16:08:08 +0200",
+      "cooked_chicken": "2025-04-19 14:31:18 +0200",
       "cooked_mutton": "2025-04-16 22:31:11 +0200",
       "cooked_beef": "2025-04-15 12:45:29 +0200"
     },
@@ -3947,21 +3948,9 @@
     },
     "done": true
   },
-  "cobblemon:recipes/misc/net_rod": {
-    "criteria": {
-      "has_ball": "2025-04-18 19:48:49 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
     "criteria": {
       "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2025-04-18 20:03:18 +0200"
     },
     "done": true
   },
@@ -3977,35 +3966,11 @@
     },
     "done": true
   },
-  "cobblemon:recipes/misc/heal_rod": {
-    "criteria": {
-      "has_ball": "2025-04-18 19:48:48 +0200"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_slab": {
     "criteria": {
       "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
     },
     "done": true
-  },
-  "cobblemon:recipes/misc/dusk_rod": {
-    "criteria": {
-      "has_ball": "2025-04-18 19:47:37 +0200"
-    },
-    "done": false
-  },
-  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
-    "criteria": {
-      "has_polished_blackstone_slab": "2025-04-18 19:11:02 +0200"
-    },
-    "done": true
-  },
-  "cobblemon:recipes/misc/nest_rod": {
-    "criteria": {
-      "has_ball": "2025-04-18 19:49:05 +0200"
-    },
-    "done": false
   },
   "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
     "criteria": {
@@ -4049,12 +4014,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2025-04-18 19:20:24 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
     "criteria": {
       "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
@@ -4072,6 +4031,60 @@
       "has_polished_blackstone": "2025-04-18 19:01:35 +0200"
     },
     "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
+    "criteria": {
+      "has_polished_blackstone_slab": "2025-04-18 19:11:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-04-18 19:20:24 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/misc/dusk_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:47:37 +0200"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/misc/heal_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:48:48 +0200"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/misc/net_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:48:49 +0200"
+    },
+    "done": false
+  },
+  "cobblemon:recipes/misc/nest_rod": {
+    "criteria": {
+      "has_ball": "2025-04-18 19:49:05 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2025-04-18 20:03:18 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/decorated_pot_simple": {
+    "criteria": {
+      "has_brick": "2025-04-19 14:14:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2025-04-19 14:14:51 +0200"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
