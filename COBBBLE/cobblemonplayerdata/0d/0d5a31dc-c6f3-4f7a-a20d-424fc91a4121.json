@@ -8,30 +8,30 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 38,
+    "totalCaptureCount": 40,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 8,
-    "totalBattleVictoryCount": 172,
+    "totalBattleVictoryCount": 194,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 172,
+    "totalPvWBattleVictoryCount": 194,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
     "totalTypeCaptureCounts": {
       "dark": 4,
       "ghost": 5,
-      "fighting": 5,
+      "fighting": 6,
       "psychic": 4,
-      "electric": 2,
+      "electric": 3,
       "steel": 4,
-      "flying": 3,
+      "flying": 4,
       "ice": 5,
       "poison": 2,
       "water": 3,
       "fairy": 2,
       "bug": 1,
-      "fire": 5,
+      "fire": 6,
       "normal": 6,
       "rock": 1,
       "grass": 1,
@@ -49,7 +49,7 @@
       "cobblemon:pineco": 5,
       "cobblemon:corvisquire": 1,
       "cobblemon:rookidee": 2,
-      "cobblemon:pidgeotto": 1,
+      "cobblemon:pidgeotto": 2,
       "cobblemon:deerling": 2,
       "cobblemon:petilil": 1,
       "cobblemon:murkrow": 4,
@@ -60,13 +60,13 @@
       "cobblemon:cottonee": 4,
       "cobblemon:beedrill": 2,
       "cobblemon:pidgey": 1,
-      "cobblemon:tauros": 2,
+      "cobblemon:tauros": 4,
       "cobblemon:swellow": 3,
       "cobblemon:eevee": 1,
       "cobblemon:electrike": 1,
       "cobblemon:diggersby": 2,
-      "cobblemon:bouffalant": 2,
-      "cobblemon:darumaka": 1,
+      "cobblemon:bouffalant": 3,
+      "cobblemon:darumaka": 2,
       "cobblemon:cubone": 2,
       "cobblemon:rhyhorn": 2,
       "cobblemon:steenee": 1,
@@ -112,9 +112,9 @@
       "cobblemon:arbok": 1,
       "cobblemon:cacnea": 2,
       "cobblemon:ekans": 1,
-      "cobblemon:sandshrew": 1,
+      "cobblemon:sandshrew": 3,
       "cobblemon:cacturne": 1,
-      "cobblemon:hippopotas": 1,
+      "cobblemon:hippopotas": 2,
       "cobblemon:lunatone": 1,
       "cobblemon:girafarig": 1,
       "cobblemon:braviary": 1,
@@ -130,7 +130,17 @@
       "cobblemon:mudbray": 1,
       "cobblemon:ponyta": 1,
       "cobblemon:teddiursa": 1,
-      "cobblemon:vivillon": 1
+      "cobblemon:vivillon": 1,
+      "cobblemon:revavroom": 1,
+      "cobblemon:heracross": 1,
+      "cobblemon:krokorok": 1,
+      "cobblemon:heliolisk": 1,
+      "cobblemon:sandslash": 2,
+      "cobblemon:skarmory": 1,
+      "cobblemon:hippowdon": 2,
+      "cobblemon:bunnelby": 1,
+      "cobblemon:grimer": 1,
+      "cobblemon:magikarp": 1
     },
     "aspectsCollected": {
       "cobblemon:zorua": [
@@ -268,6 +278,12 @@
       ],
       "cobblemon:ceruledge": [
         "female"
+      ],
+      "cobblemon:zapdos": [
+        "genderless"
+      ],
+      "cobblemon:combusken": [
+        "male"
       ]
     }
   }
