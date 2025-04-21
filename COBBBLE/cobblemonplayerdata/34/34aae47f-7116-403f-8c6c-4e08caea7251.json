@@ -8,13 +8,13 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 30,
+    "totalCaptureCount": 31,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 12,
-    "totalBattleVictoryCount": 79,
+    "totalBattleVictoryCount": 81,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 79,
+    "totalPvWBattleVictoryCount": 81,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -26,10 +26,10 @@
       "rock": 2,
       "steel": 2,
       "ghost": 5,
-      "electric": 4,
+      "electric": 5,
       "grass": 3,
       "dark": 2,
-      "flying": 5,
+      "flying": 6,
       "poison": 3,
       "fighting": 2,
       "ice": 1,
@@ -67,7 +67,7 @@
       "cobblemon:zoroark": 1,
       "cobblemon:sawsbuck": 1,
       "cobblemon:bouffalant": 1,
-      "cobblemon:ponyta": 1,
+      "cobblemon:ponyta": 2,
       "cobblemon:banette": 1,
       "cobblemon:klink": 1,
       "cobblemon:flaaffy": 1,
@@ -202,6 +202,9 @@
       ],
       "cobblemon:aron": [
         "female"
+      ],
+      "cobblemon:zapdos": [
+        "genderless"
       ]
     }
   }
