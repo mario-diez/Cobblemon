@@ -8,33 +8,34 @@
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 31,
+    "totalCaptureCount": 39,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 12,
-    "totalBattleVictoryCount": 81,
+    "totalBattleVictoryCount": 92,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 81,
+    "totalPvWBattleVictoryCount": 92,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
-    "totalTradedCount": 0,
+    "totalTradedCount": 2,
     "totalTypeCaptureCounts": {
-      "normal": 5,
-      "water": 3,
+      "normal": 6,
+      "water": 5,
       "fire": 4,
       "ground": 1,
       "rock": 2,
-      "steel": 2,
-      "ghost": 5,
-      "electric": 5,
-      "grass": 3,
+      "steel": 4,
+      "ghost": 6,
+      "electric": 6,
+      "grass": 4,
       "dark": 2,
-      "flying": 6,
-      "poison": 3,
-      "fighting": 2,
+      "flying": 7,
+      "poison": 4,
+      "fighting": 3,
       "ice": 1,
       "dragon": 1,
-      "bug": 1
+      "bug": 2,
+      "psychic": 1
     },
     "totalDefeatedCounts": {
       "cobblemon:caterpie": 2,
@@ -66,12 +67,14 @@
       "cobblemon:avalugg": 1,
       "cobblemon:zoroark": 1,
       "cobblemon:sawsbuck": 1,
-      "cobblemon:bouffalant": 1,
+      "cobblemon:bouffalant": 2,
       "cobblemon:ponyta": 2,
       "cobblemon:banette": 1,
       "cobblemon:klink": 1,
       "cobblemon:flaaffy": 1,
-      "cobblemon:stonjourner": 1
+      "cobblemon:stonjourner": 1,
+      "cobblemon:latios": 1,
+      "cobblemon:basculin": 1
     },
     "aspectsCollected": {
       "cobblemon:lechonk": [
@@ -205,6 +208,31 @@
       ],
       "cobblemon:zapdos": [
         "genderless"
+      ],
+      "cobblemon:electrike": [
+        "male"
+      ],
+      "cobblemon:pidgeotto": [
+        "female"
+      ],
+      "cobblemon:doublade": [
+        "male"
+      ],
+      "cobblemon:croagunk": [
+        "female"
+      ],
+      "cobblemon:lotad": [
+        "male"
+      ],
+      "cobblemon:escavalier": [
+        "male"
+      ],
+      "cobblemon:espeon": [
+        "male"
+      ],
+      "cobblemon:poliwag": [
+        "male",
+        "fished"
       ]
     }
   }
