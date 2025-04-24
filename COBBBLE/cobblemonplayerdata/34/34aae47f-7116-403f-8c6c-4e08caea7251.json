@@ -12,9 +12,9 @@
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 12,
-    "totalBattleVictoryCount": 96,
+    "totalBattleVictoryCount": 99,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 96,
+    "totalPvWBattleVictoryCount": 99,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 2,
@@ -72,10 +72,11 @@
       "cobblemon:banette": 1,
       "cobblemon:klink": 1,
       "cobblemon:flaaffy": 2,
-      "cobblemon:stonjourner": 1,
-      "cobblemon:latios": 1,
+      "cobblemon:stonjourner": 2,
+      "cobblemon:latios": 2,
       "cobblemon:basculin": 1,
-      "cobblemon:lokix": 1
+      "cobblemon:lokix": 1,
+      "cobblemon:butterfree": 1
     },
     "aspectsCollected": {
       "cobblemon:lechonk": [

@@ -4,17 +4,19 @@
   "starterLocked": false,
   "starterSelected": true,
   "starterUUID": "d671f662-aed9-4214-827a-1750bc213648",
-  "keyItems": [],
+  "keyItems": [
+    "cobblemon:key_stone"
+  ],
   "battleTheme": "cobblemon:battle.pvp.default",
   "extraData": {},
   "advancementData": {
-    "totalCaptureCount": 51,
+    "totalCaptureCount": 56,
     "totalEggsCollected": 0,
     "totalEggsHatched": 0,
-    "totalEvolvedCount": 9,
-    "totalBattleVictoryCount": 283,
-    "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 283,
+    "totalEvolvedCount": 11,
+    "totalBattleVictoryCount": 315,
+    "totalPvPBattleVictoryCount": 1,
+    "totalPvWBattleVictoryCount": 314,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 2,
@@ -28,35 +30,35 @@
       "flying": 5,
       "ice": 5,
       "poison": 3,
-      "water": 6,
+      "water": 9,
       "fairy": 2,
-      "bug": 3,
+      "bug": 5,
       "fire": 7,
       "normal": 7,
       "rock": 1,
       "grass": 3,
       "ground": 1,
-      "dragon": 1
+      "dragon": 2
     },
     "totalDefeatedCounts": {
       "cobblemon:wooloo": 2,
       "cobblemon:geodude": 2,
-      "cobblemon:psyduck": 2,
-      "cobblemon:patrat": 1,
+      "cobblemon:psyduck": 3,
+      "cobblemon:patrat": 2,
       "cobblemon:elekid": 2,
       "cobblemon:binacle": 2,
       "cobblemon:naclstack": 1,
       "cobblemon:pineco": 5,
       "cobblemon:corvisquire": 1,
       "cobblemon:rookidee": 2,
-      "cobblemon:pidgeotto": 2,
+      "cobblemon:pidgeotto": 3,
       "cobblemon:deerling": 2,
       "cobblemon:petilil": 1,
       "cobblemon:murkrow": 4,
       "cobblemon:slowbro": 1,
-      "cobblemon:gimmighoul": 10,
+      "cobblemon:gimmighoul": 11,
       "cobblemon:lechonk": 1,
-      "cobblemon:taillow": 1,
+      "cobblemon:taillow": 2,
       "cobblemon:cottonee": 4,
       "cobblemon:beedrill": 2,
       "cobblemon:pidgey": 1,
@@ -68,7 +70,7 @@
       "cobblemon:bouffalant": 11,
       "cobblemon:darumaka": 2,
       "cobblemon:cubone": 2,
-      "cobblemon:rhyhorn": 3,
+      "cobblemon:rhyhorn": 4,
       "cobblemon:steenee": 1,
       "cobblemon:doduo": 2,
       "cobblemon:tropius": 1,
@@ -80,7 +82,7 @@
       "cobblemon:slakoth": 1,
       "cobblemon:squawkabilly": 1,
       "cobblemon:pidove": 2,
-      "cobblemon:rhydon": 1,
+      "cobblemon:rhydon": 2,
       "cobblemon:ledian": 1,
       "cobblemon:spinarak": 1,
       "cobblemon:mudsdale": 1,
@@ -88,10 +90,10 @@
       "cobblemon:amoonguss": 1,
       "cobblemon:banette": 1,
       "cobblemon:sprigatito": 1,
-      "cobblemon:misdreavus": 3,
+      "cobblemon:misdreavus": 5,
       "cobblemon:swablu": 1,
       "cobblemon:sawsbuck": 3,
-      "cobblemon:zigzagoon": 2,
+      "cobblemon:zigzagoon": 3,
       "cobblemon:staravia": 1,
       "cobblemon:lokix": 1,
       "cobblemon:sneasel": 1,
@@ -140,13 +142,13 @@
       "cobblemon:hippowdon": 3,
       "cobblemon:bunnelby": 1,
       "cobblemon:grimer": 1,
-      "cobblemon:magikarp": 3,
+      "cobblemon:magikarp": 6,
       "cobblemon:spearow": 1,
       "cobblemon:watchog": 1,
       "cobblemon:wooper": 2,
       "cobblemon:exeggutor": 2,
       "cobblemon:spiritomb": 1,
-      "cobblemon:stonjourner": 1,
+      "cobblemon:stonjourner": 3,
       "cobblemon:houndour": 1,
       "cobblemon:tinkatink": 1,
       "cobblemon:vespiquen": 1,
@@ -155,7 +157,7 @@
       "cobblemon:dewpider": 1,
       "cobblemon:lumineon": 2,
       "cobblemon:tentacool": 5,
-      "cobblemon:barboach": 1,
+      "cobblemon:barboach": 3,
       "cobblemon:frillish": 2,
       "cobblemon:chinchou": 3,
       "cobblemon:dhelmise": 1,
@@ -174,7 +176,16 @@
       "cobblemon:alomomola": 1,
       "cobblemon:sharpedo": 1,
       "cobblemon:relicanth": 1,
-      "cobblemon:purrloin": 1
+      "cobblemon:purrloin": 1,
+      "cobblemon:gyarados": 1,
+      "cobblemon:buizel": 1,
+      "cobblemon:goldeen": 1,
+      "cobblemon:bibarel": 1,
+      "cobblemon:karrablast": 1,
+      "cobblemon:manectric": 1,
+      "cobblemon:nymble": 1,
+      "cobblemon:diglett": 1,
+      "cobblemon:furret": 1
     },
     "aspectsCollected": {
       "cobblemon:zorua": [
@@ -359,6 +370,28 @@
       "cobblemon:kyogre": [
         "genderless",
         "standard"
+      ],
+      "cobblemon:tatsugiri": [
+        "male",
+        "tatsugiri-texture-stretchy"
+      ],
+      "cobblemon:illumise": [
+        "female"
+      ],
+      "cobblemon:volbeat": [
+        "male"
+      ],
+      "cobblemon:frogadier": [
+        "male"
+      ],
+      "cobblemon:quaxwell": [
+        "male"
+      ],
+      "cobblemon:greninja": [
+        "male"
+      ],
+      "cobblemon:quaquaval": [
+        "male"
       ]
     }
   }

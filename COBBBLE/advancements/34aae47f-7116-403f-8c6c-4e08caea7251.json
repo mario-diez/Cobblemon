@@ -42,6 +42,7 @@
       "minecraft:stony_shore": "2025-04-16 11:41:59 +0200",
       "minecraft:snowy_plains": "2025-04-17 15:39:17 +0200",
       "minecraft:snowy_taiga": "2025-04-17 15:50:53 +0200",
+      "minecraft:dripstone_caves": "2025-04-24 20:48:49 +0200",
       "minecraft:old_growth_birch_forest": "2025-04-15 13:32:11 +0200",
       "minecraft:swamp": "2025-04-22 13:21:47 +0200",
       "minecraft:meadow": "2025-04-22 13:15:55 +0200",
@@ -894,7 +895,8 @@
       "minecraft:zombie": "2025-04-15 13:00:19 +0200",
       "minecraft:creeper": "2025-04-15 13:22:48 +0200",
       "minecraft:drowned": "2025-04-15 13:45:16 +0200",
-      "minecraft:zombie_villager": "2025-04-16 11:50:15 +0200"
+      "minecraft:zombie_villager": "2025-04-16 11:50:15 +0200",
+      "minecraft:slime": "2025-04-24 20:37:09 +0200"
     },
     "done": false
   },
@@ -4892,6 +4894,336 @@
   "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
     "criteria": {
       "has_smooth_stone": "2025-04-22 20:09:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-04-24 20:01:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/terracotta": {
+    "criteria": {
+      "has_clay_block": "2025-04-24 20:04:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2025-04-24 20:08:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bricks": {
+    "criteria": {
+      "has_brick": "2025-04-24 20:09:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/flower_pot": {
+    "criteria": {
+      "has_brick": "2025-04-24 20:09:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2025-04-24 20:11:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2025-04-24 20:14:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2025-04-24 20:14:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2025-04-24 20:16:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-24 20:18:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-24 20:18:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-24 20:18:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_stairs": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-24 20:18:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_cut_copper_slab": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2025-04-24 20:18:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2025-04-24 20:27:04 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/iron_ball": {
+    "criteria": {
+      "has_iron": "2025-04-24 20:27:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-04-24 20:27:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-04-24 20:27:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_copper_bulb": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_waxed_copper_block": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_slab_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_chiseled_copper_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_grate_from_waxed_copper_block_stonecutting": {
+    "criteria": {
+      "has_waxed_copper_block": "2025-04-24 20:35:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-04-24 20:37:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-04-24 20:37:12 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-04-24 20:37:12 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/fire_stone_block": {
+    "criteria": {
+      "has_fire_stone": "2025-04-24 20:43:16 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/charcoal_stick": {
+    "criteria": {
+      "has_fire": "2025-04-24 20:43:16 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/mystic_water": {
+    "criteria": {
+      "has_water": "2025-04-24 20:43:44 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/blocks/water_stone_block": {
+    "criteria": {
+      "has_water_stone": "2025-04-24 20:43:44 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/damp_rock": {
+    "criteria": {
+      "has_stone": "2025-04-24 20:43:44 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/heat_rock": {
+    "criteria": {
+      "has_stone": "2025-04-24 20:43:44 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/building_blocks/chiseled_mega_evo_brick": {
+    "criteria": {
+      "has_mega_evo_block": "2025-04-24 20:43:59 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/building_blocks/chiseled_mega_evo_block": {
+    "criteria": {
+      "has_mega_evo_block": "2025-04-24 20:43:59 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/building_blocks/mega_evo_brick": {
+    "criteria": {
+      "has_mega_evo_block": "2025-04-24 20:43:59 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/building_blocks/polished_mega_evo_block": {
+    "criteria": {
+      "has_mega_evo_block": "2025-04-24 20:43:59 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megabracelet_green": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megabracelet_blue": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megabracelet_pink": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megabracelet_black": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megabracelet": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/archie_anchor": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megabracelet_red": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megaring": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/megabracelet_yellow": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:mega_showdown/find_keystone": {
+    "criteria": {
+      "obtained_item": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/keystone_block": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/lysandre_ring": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/brendan_mega_cuff": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/korrina_glove": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
+    },
+    "done": true
+  },
+  "mega_showdown:recipes/misc/maxie_glasses": {
+    "criteria": {
+      "has_keystone": "2025-04-24 20:44:29 +0200"
     },
     "done": true
   },
