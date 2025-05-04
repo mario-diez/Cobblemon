@@ -40,6 +40,7 @@
       "minecraft:deep_lukewarm_ocean": "2025-04-15 19:28:25 +0200",
       "minecraft:badlands": "2025-04-20 14:16:20 +0200",
       "minecraft:flower_forest": "2025-04-15 16:30:05 +0200",
+      "minecraft:savanna_plateau": "2025-05-04 12:06:52 +0200",
       "minecraft:beach": "2025-04-15 12:52:45 +0200",
       "minecraft:dark_forest": "2025-04-17 00:48:00 +0200",
       "minecraft:sparse_jungle": "2025-04-15 13:31:11 +0200",
@@ -141,7 +142,8 @@
       "honey_bottle": "2025-04-22 12:52:25 +0200",
       "cooked_mutton": "2025-04-23 00:57:25 +0200",
       "cooked_beef": "2025-04-15 12:45:27 +0200",
-      "baked_potato": "2025-04-24 20:21:03 +0200"
+      "baked_potato": "2025-04-24 20:21:03 +0200",
+      "golden_carrot": "2025-05-04 12:54:32 +0200"
     },
     "done": false
   },
@@ -1433,6 +1435,7 @@
   "cobblemon:obtain_all_mints": {
     "criteria": {
       "obtain_cyan_mint_leaf": "2025-04-17 01:45:37 +0200",
+      "obtain_white_mint_leaf": "2025-05-04 12:18:34 +0200",
       "obtain_pink_mint_leaf": "2025-04-15 16:17:53 +0200",
       "obtain_red_mint_leaf": "2025-04-15 16:53:15 +0200",
       "obtain_blue_mint_leaf": "2025-04-15 13:20:44 +0200"
@@ -3020,6 +3023,7 @@
   },
   "repurposed_structures:outposts": {
     "criteria": {
+      "in_outpost_jungle": "2025-05-04 12:21:14 +0200",
       "in_outpost_oak": "2025-04-15 15:29:43 +0200"
     },
     "done": false
@@ -6141,6 +6145,150 @@
   "cobblemon:first_battle_victory": {
     "criteria": {
       "win": "2025-04-24 21:06:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2025-05-04 11:52:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2025-05-04 11:52:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2025-05-04 11:52:23 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2025-05-04 11:59:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wayfinder_armor_trim_smithing_template": {
+    "criteria": {
+      "has_wayfinder_armor_trim_smithing_template": "2025-05-04 12:05:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wayfinder_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-04 12:05:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-05-04 12:05:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-05-04 12:05:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2025-05-04 12:05:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-05-04 12:05:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_planks": {
+    "criteria": {
+      "has_log": "2025-05-04 12:07:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_oak_wood": {
+    "criteria": {
+      "has_log": "2025-05-04 12:07:51 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/assault_vest": {
+    "criteria": {
+      "has_protector": "2025-05-04 12:11:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-05-04 12:14:49 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/power_weight": {
+    "criteria": {
+      "has_mint": "2025-05-04 12:18:34 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/consumables/serious_mint": {
+    "criteria": {
+      "has_mint_leaf": "2025-05-04 12:18:34 +0200"
+    },
+    "done": true
+  },
+  "poke-clothing:recipes/misc/blue_cloth": {
+    "criteria": {
+      "has_blue_wool": "2025-05-04 12:30:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_bed": {
+    "criteria": {
+      "has_blue_wool": "2025-05-04 12:30:33 +0200"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/protective_pads": {
+    "criteria": {
+      "has_wool": "2025-05-04 12:30:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_carpet": {
+    "criteria": {
+      "has_blue_wool": "2025-05-04 12:30:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_banner": {
+    "criteria": {
+      "has_blue_wool": "2025-05-04 12:30:33 +0200"
+    },
+    "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_oak": "2025-05-04 12:32:34 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-05-04 12:54:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-05-04 12:54:50 +0200"
     },
     "done": true
   },
